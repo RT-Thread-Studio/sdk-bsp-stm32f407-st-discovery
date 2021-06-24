@@ -11,7 +11,7 @@ board:
     STM32F407 的芯片性能。
   emulator_machine: ''
   large_image: documents/images/board.png
-  name: stm32f407-st-discovery
+  name: STM32F407-ST-DISCOVERY
   price_cn: 128.80 CNY
   price_global: 19.9 USD
   sale_contact_cn: https://www.st.com/zh/evaluation-tools/stm32f4discovery.html#sample-buy
