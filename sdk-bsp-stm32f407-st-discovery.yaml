@@ -1,0 +1,93 @@
+board:
+  buy_url_cn: https://estore.st.com/en/stm32f407g-disc1-cpn.html
+  buy_url_global: https://estore.st.com/en/stm32f407g-disc1-cpn.html
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: STM32F4DISCOVERY is a development board based on the ARM Cortex-M4
+    core launched by ST. The highest frequency is 168Mhz. The development board has
+    abundant on-board resources and can give full play to the chip performance of
+    STM32F407.
+  description_zh: STM32F4DISCOVERY 是 ST 推出的一款基于 ARM Cortex-M4 内核的开发板，最高主频为 168Mhz，该开发板具有丰富的板载资源，可以充分发挥
+    STM32F407 的芯片性能。
+  emulator_machine: ''
+  large_image: documents/images/board.png
+  name: STM32F407-ST-DISCOVERY
+  price_cn: 128.80 CNY
+  price_global: 19.9 USD
+  sale_contact_cn: https://www.st.com/zh/evaluation-tools/stm32f4discovery.html#sample-buy
+  sale_contact_global: https://www.st.com/en/evaluation-tools/stm32f4discovery.html
+  small_image: documents/images/boards.png
+  vendor: STMicroelectronics
+  version: 1.0.0
+chip:
+  chip_name: STM32F407VGT6
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32F4
+  source_freq: '8000000'
+  sub_series_name: STM32F407
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/stm32f4discovery.pdf
+  title: stm32f4discovery
+example_projects: []
+features:
+- 'MCU: STM32F407VGT6, main frequency 168MHz, 1024KB FLASH, 192KB RAM'
+- LED：4个用户 LEDs， LD3（orange，PD13），LD4(green，PD12)，LD5 (red,PD14) and LD6 (blue，PD15)。
+- Buttons, 2, Reset and User.
+- Debug interface, onboard ST-LINK/V2 debugger, use SWD debug mode.
+features_zh:
+- MCU：STM32F407VGT6，主频 168MHz，1024KB FLASH ，192KB RAM
+- LED：4个用户 LEDs， LD3（orange，PD13），LD4(green，PD12)，LD5 (red,PD14) and LD6 (blue，PD15)。
+- 按键，2个，Reset 和 User。
+- "调试接口，板载 ST-LINK/V2调试器，使用SWD调试模式。\t"
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - makefile.targets
+    - project.ewd
+    - project.ewp
+    - project.eww
+    - project.uvopt
+    - project.uvoptx
+    - project.uvproj
+    - project.uvprojx
+    - README.md
+    - rt-thread
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    - template.ewp
+    - template.eww
+    - template.uvopt
+    - template.uvoptx
+    - template.uvproj
+    - template.uvprojx
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files: []
+  project_description: ''
+  project_name: stm32f407-st-disc
+  project_type: rt-thread|@full|@4.0.3
+yaml_version: 3
